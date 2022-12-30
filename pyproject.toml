@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-rabbitmq"
+version = "0.1.0"
+description = ""
+authors = ["Idyl Icaro dos Santos <idylicaro.se@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pika = "^1.3.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
